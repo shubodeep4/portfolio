@@ -1,0 +1,60 @@
+/* Work Experience Section */
+.work-experience {
+    padding: 40px 0;
+    background-color: #111; /* Dark background to match the overall theme */
+    text-align: center;
+  }
+  
+  .work-experience h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Experience Cards */
+  .experience-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .experience-card {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #1a1a1a, #333333);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7), 0px -2px 8px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .experience-card h3 {
+    font-size: 24px;
+    color: #1e90ff;
+    margin-bottom: 10px;
+  }
+  
+  .experience-card h4 {
+    font-size: 20px;
+    color: #f0f0f0;
+    margin-bottom: 5px;
+  }
+  
+  .experience-card .duration {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 10px;
+  }
+  
+  .experience-card .description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ddd;
+  }
+  

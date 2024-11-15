@@ -1,0 +1,27 @@
+.contact {
+  padding: 40px 0;
+}
+
+.contact-card {
+  background: #fff;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #555;
+}
